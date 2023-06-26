@@ -1,0 +1,62 @@
+.navbar-btn{
+  margin : 8px;
+}
+
+.app-name{
+  font-size: 20px !important;
+}
+
+.navbar { 
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: hsl(311, 29%, 88%);
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;  
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 15px;
+  padding-top: 10px;
+  margin: 0;
+  color: #167bff;
+}
+
+.auth-span{
+   text-decoration: underline;
+}
+
+.product-image{
+  height:180px !important;
+  object-fit: cover;
+}
